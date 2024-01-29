@@ -1,7 +1,11 @@
 # Auto-image-to-Ascii
 Application that converts all images in a folder into custom ASCII code.
+To use it, download the entire folder and don't move the files, preserving their structure.
 
-This application has two versions, in both of them you can disable your windows defender, simply because it uses CMD commands to convert everything to ascii using another exe (not made by me) There are two versions: 1- .exe file that runs when you disable Windows Defender. Once it runs, you can select the folder with all the images, adjust the settings, select the output file to write all the ascii and press start. 2- Similar but you will need a code interpreter with python installed such as VSCode. In this one you have more options and you can see in your output terminal how the output is going. You can also change colours and display different things. (This version is not on .exe simply because I couldn't manage to make it work as intended by showing the output in a terminal so :,( )
+This application has two versions, in both of them you may need to disable your windows defender, simply because it uses CMD commands to convert everything to ascii using another exe (not made by me).
+There are two versions: 
+  1- .exe file that once it runs, (you may disable Windows Defender) you can select the folder with all the images, adjust the settings, select the output file to write all the ascii and press start. 
+  2- Similar but you will need a code interpreter with python installed such as VSCode with all the libreries installed (on "imports list" are all the comands you have to run when pyhton already installed). In this one you have more options and you can see in your output terminal how the output is going. You can also change colours and display different things. (This version is not on .exe simply because I couldn't manage to make it work as intended by showing the output in a terminal so :,( )
 
 All these codes use other .exe as I said, the information to use them is in the other folder: "ascii-image-converter_Windows_amd64_64bit".
                                  Apache License
