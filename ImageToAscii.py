@@ -17,20 +17,6 @@ Color = "255,255,255"; TimeDelay = 0.01; Stop = False; Dynamic = True; ColorOrig
 CLEARBASHLINE = "\033[1A\x1b[2K"
 FRAMES = []
 
-#terminal = subprocess.Popen('cmd.exe', stdin=subprocess.PIPE)
-#terminal = subprocess.Popen(['start', 'cmd'], shell=True)
-#terminal = subprocess.Popen(['start','cmd.exe'], shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True, bufsize=1)
-#terminal.communicate()
-
-def printTerminal(text):
-    text = 'echo ' + text
-    terminal.stdin.write(text + '\n')
-    #terminal.stdin.write(text.encode('utf-8'))
-def printComandTerminal(command):
-    terminal.stdin.write(command + '\n')
-    #terminal.stdin.close()
-
-#localFolder = os.path.dirname(os.path.abspath(__file__))
 localFolder = os.path.dirname(os.path.abspath(sys.argv[0]))
 folder = "ascii-image-converter_Windows_amd64_64bit"
 exe = "ascii-image-converter.exe"
