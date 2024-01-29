@@ -1,0 +1,13 @@
+DOWNLOAD AND INSTALL PYTHON (python 3.12 as posible) https://www.python.org/downloads/
+
+run in a terminal: 
+pip import subprocess
+pip import threading
+pip import os
+pip import sys
+pip import time
+pip import imghdr
+pip import customtkinter
+pip import CTkColorPicker 
+pip import tkinter 
+pip import colorsys
